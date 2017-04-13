@@ -1,0 +1,98 @@
+a { text-decoration: none;
+    color: #0a0a0f;
+    font-family: sans-serif;
+  }
+
+a:hover {text-decoration: underline;}
+
+.h-t{font-family: sans-serif; 
+         float: right;
+     /*border: 1px solid red;*/
+     }
+
+.header{ 
+          position: relative;
+          margin: 5px;
+          padding: 5px;
+          font-size: 14px;
+                
+          }
+#sign-in-button { font-weight: bold;
+                  color: #ffffff;
+                  background-color: #0066ff;
+                  display: inline-block;
+                /* position: relative;*/
+                  margin: 5x;
+                  padding: 10px;
+                  border-radius: 3px;
+                  text-decoration: none
+                 }
+.middle { /*border: 1px solid black;*/
+	      height: 300px;
+	      clear: both;
+	      position: relative;
+	      top: 70px;}
+
+img { position: absolute;
+      top:10px;
+      left: 250px;
+    }         
+
+input {border:1px solid #8a8a5c;
+	   position: absolute;
+      top:200px;
+      left:330px;
+      height: 30px;
+      width: 400px;}  
+input:focus { border:1px solid blue;}
+
+body div table { /*border:1px solid blue;*/
+	            position: absolute;
+                 left:400px;
+                 
+                 bottom: 20px;
+                    
+                 }
+
+.search-bar {
+                               
+             text-decoration: none;}
+.search-bar td a { font-weight: bold;
+	               font-size: 13px;
+                   color:#4d4d33;
+	              text-decoration: none;
+                  background-color: #ebebe0;
+                  display: inline;
+                /* width: 150px;*/
+                  
+                  padding: 13px;
+                  text-align: center;
+                 }
+
+
+.search-bar td a:hover{border:1px solid #8a8a5c;
+                        color: black;}
+
+ul { /*border: 1px solid blue;*/
+	list-style-type: none;
+	position: fixed;
+	bottom: -20px;
+	right:0;
+	left:0;
+	background-color: #ebebe0;
+ }
+
+ .left {
+ 	 float: left;
+ }
+
+ .right{
+ 	  float: right;
+ }
+
+ li a {
+ 	   font-size: 13px;
+ 	   display: block;
+ 	   text-align: center;
+ 	   padding:13px;
+ }
